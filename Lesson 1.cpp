@@ -12,6 +12,6 @@ int main() {
 	Kyrylo.showInfo();
 	Andriy.showInfo();*/
 	Card Pletnov("Pletnov Denis");
-
+	Pletnov.setName("Pletnov D.S");
 	Pletnov.showInfo();
 }
