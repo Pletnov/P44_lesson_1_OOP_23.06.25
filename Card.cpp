@@ -35,3 +35,15 @@ void Card::showInfo()
 	cout << "PIN: " << PIN << endl;
 	cout << "Cash: " << cash << endl;
 }
+
+void Card::setPIN(int old_PIN, int new_PIN)
+{
+}
+
+void Card::setName(const char* new_name)
+{
+}
+
+void Card::setExpiredDate(const char* new_ExpiredDate)
+{
+}

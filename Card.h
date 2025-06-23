@@ -16,4 +16,14 @@ public:
 	Card(const char* user_name);
 	~Card();
 	void showInfo();
+
+	int getNumber();
+	const char* getName();
+	const char* getExpiredDate();
+	int getPIN();
+	double getCash();
+
+	void setPIN(int old_PIN, int new_PIN);
+	void setName(const char* new_name);
+	void setExpiredDate(const char* new_ExpiredDate);
 };
